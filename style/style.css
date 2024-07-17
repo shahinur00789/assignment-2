@@ -2,3 +2,39 @@
 body{
     font-family: "Inter", sans-serif;
 }
+*{
+    margin: 0;
+}
+
+.containar{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-heading{
+    font-size: 36px;
+font-weight: 800;
+color: rgb(230, 83, 60);
+width: 132px;
+
+}
+
+.nav-option{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.containar p{
+    font-size: 18px;
+font-weight: normal;
+line-height: normal;
+cursor: pointer;
+}
+/* banner */
+
+
