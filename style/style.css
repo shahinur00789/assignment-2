@@ -5,6 +5,13 @@ body{
 *{
     margin: 0;
 }
+.header{
+    width: 1440px;
+height: 2811pxpx;
+    background: linear-gradient(0.00deg, rgb(12, 11, 11),rgba(15, 14, 14, 0) 100%);
+    background-color: rgb(32, 30, 30);
+    padding: 10px;
+}
 
 .containar{
     width: 90%;
@@ -13,6 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
@@ -28,6 +36,7 @@ width: 132px;
     display: flex;
     justify-content: space-evenly;
     gap: 3rem;
+    color: antiquewhite;
 }
 .containar p{
     font-size: 18px;
@@ -36,5 +45,100 @@ line-height: normal;
 cursor: pointer;
 }
 /* banner */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5rem auto;
+    align-items: center;
+
+}
+.banner-text h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+text-align: left;
+
+}
+.banner-text p{
+    color: white;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+
+}
+.banner-image{
+    width: 349px;
+height: 580px;
+}
+/* habit section add */
+.habits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+background:black;
+    width: 1460px;
+    padding-top: 141px;
+}
+.habits h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.habits p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+.habits-items{
+    width: 1044px;
+height: 400px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+/* margin-top: 58px; */
+gap: 40px;
+
+}
+.habits-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habits-item img{
+    width: 250px;
+height: 160px;
+/* left: -11.5px; */
+border-radius: 50%;
+
+
+}
+.habits-item h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+
+}
+.habits-item p{
+
+}
+
+
+
+
+
+
+
+/* meet your team */
 
 
