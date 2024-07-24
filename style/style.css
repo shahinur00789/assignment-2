@@ -185,6 +185,52 @@ margin-top:20px;
     width: 366px;
 height: 312px;
 }
+/* BMI section start */
+.BMI{
+    width: 1460px;
+height: 487px;
+background: rgb(34, 34, 34);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+table{
+    border-collapse: collapse;
+    width: 216px;
+}
+.BMI-colum h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900; 
+    margin-bottom: 40px;
+}
+.BMI-colum p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin: ;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+padding: 10px;
+
+}
+th{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+
 
 
 /* exercises section start */
