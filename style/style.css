@@ -187,9 +187,108 @@ height: 312px;
 }
 
 
+/* exercises section start */
+.exercises{
+    width: 1460px;
+height: 581px;
+background-color: black;
+}
+.exercise{
+    width: 1060px;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+.exercises h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+
+}
+.exercises p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+.exersice-img{
+    width: 1060px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.img-1{
+
+    width: 323px;
+height: 218px;
+}
 
 
 
-/* meet your team */
+
+/* footer start */
+.foot{
+
+    width: 1460px;
+    height: 490px;
+    background-color:rgb(44, 42, 42);
+    padding-top: 40px;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer-colum li{
+    list-style: none;
+    color: rgb(155, 154, 154);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 60px;
 
 
+}
+.footer-colum h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 30px;
+
+}
+.footer-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+line-height: 30px;
+}
+.footer-heading{
+    font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+}
+hr{
+    margin-top: 40px;
+    width: 1059.5px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reserved{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 30px;
+
+}
