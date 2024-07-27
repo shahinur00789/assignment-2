@@ -71,7 +71,7 @@ text-align: left;
 }
 .banner-image{
     width: 349px;
-height: 580px;
+height: 500px;
 }
 /* habit section add */
 .habits{
@@ -186,10 +186,36 @@ margin-top:20px;
 height: 312px;
 }
 /* BMI section start */
+.bmi-calculation{
+    width: 1460px;
+    height: 120px;
+    background-color: black;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-calculation h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+
+
+}
+.bmi-calculation p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+
 .BMI{
     width: 1460px;
-height: 487px;
-background: rgb(34, 34, 34);
+    height: 487px;
+    background: rgb(34, 34, 34);
 display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -230,48 +256,66 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 500;
 }
+/* BMI end */
 
+/* meet your team section start */
 
-
-/* exercises section start */
-.exercises{
+.meet-your-team{
     width: 1460px;
-height: 581px;
+height: auto;
 background-color: black;
+
 }
-.exercise{
-    width: 1060px;
-    height: auto;
-    margin: 0px auto;
-    padding-top: 50px;
+.meet-your-team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.exercises h1{
+.meet-heading{
     color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 48px;
 font-weight: 900;
 
 }
-.exercises p{
+.meet-des{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
-.exersice-img{
-    width: 1060px;
+.row-1{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    gap: 20px;
 }
-.img-1{
-
-    width: 323px;
-height: 218px;
+.trainer-member{
+    width: 1060px;
+height: 604px;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin: 58px;
 }
-
-
-
+.trainer img{
+    width: 100%;
+height: 272px;
+filter: brightness(70%);
+}
+.trainer{
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+}
+.name p{
+    color: rgb(124, 121, 121);
+    font-size: 14px;
+font-weight: 400;
+}
 
 /* footer start */
 .foot{
@@ -338,3 +382,6 @@ font-weight: 400;
 margin-top: 30px;
 
 }
+
+
+/* responsive */
