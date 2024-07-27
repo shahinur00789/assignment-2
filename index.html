@@ -17,7 +17,7 @@
             <h3><i>Fitness</i></h3>
         </div>
         <div class="nav-option">
-            <p>Home</p>
+            <p class="nspan">Home</p>
             <p>Service</p>
             <p>Contact</p>
             <p>About</p>
@@ -28,15 +28,27 @@
 <!-- banner -->
      <section class="banner-section">
         <div class="banner-text">
-            <h1>Get body in <br> shape & stay <br> healthy</h1>
+            <h1>Get body in <br> <span>shape</span> & stay <br> healthy</h1>
             <p>A huge selection of health and fitness content, healthy recipes and <br> transformation stories to help you get fit and stay fit!</p>
-            <button>Join Club Now!</button>
-            <button>Download App</button>
+            <button class="b-join">Join Club Now!</button>
+            <button class="b-download">Download App</button>
 
         </div>
 
         <div class="banner-image">
             <img src="images/banner.png" alt="">
+            <div class="video-card">
+                <div class="color"></div>
+               <div><h3>350+</h3>
+                <p>Video tutorial</p></div> 
+
+
+            </div>
+
+            <div class="free">
+                <h3>500+</h3>
+                <p>Free Workout Videos</p>
+            </div>
 
 
         </div>
@@ -147,16 +159,20 @@
                 Calculate your BMI
             </h2>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
-            <input type="text" placeholder="Height/cm">
-            <input type="text" name="" id="" placeholder="Weight/kg"> <br>
+            <div class="selector"><input type="text" placeholder="Height/cm">
+            <input type="text" name="" id="" placeholder="Weight/kg">
             <input type="text" name="" id="" placeholder="Age">
-            <input type="text" placeholder="sex" id="sex">
-            <label for="sex"><select name="" id="">
-                <option value=""></option>
-                <option value=""></option>
-            </select></label> <br>
-            <input type="text" placeholder="Select an activity factor"> <br>
-            <button>Calculate</button>
+            <select name="" id="">
+                <option value="">Sex</option>
+            </select>
+           </div>
+             <select name="" class="extra-long">
+                <option value="">Select an activity factor</option>
+            </select>
+            <br>
+            <button class="bmi-btn">Calculate</button>
+            
+            
             
         </div>
     </section>
