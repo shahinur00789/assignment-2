@@ -180,6 +180,18 @@ font-size: 13px;
 font-weight: 400;
 
 }
+.play-icon{
+    width: 14.63px;
+height: 20px;
+background: rgb(230, 83, 60);
+position: absolute;
+bottom: 3%;
+left: 2%;
+color: rgb(230, 83, 60);
+
+
+
+}
 
 /* habit section add */
 .habit-des{
@@ -559,6 +571,16 @@ margin-top: 30px;
     .ham-burger{
         display: block;
         color: white;
+    }
+    .play-icon{
+        width: 14.63px;
+        height: 20px;
+        background: rgb(230, 83, 60);
+        position: absolute;
+        bottom: 3%;
+        left: -1%;
+        color: white; 
+        
     }
     .banner-section{
         flex-direction: column;
