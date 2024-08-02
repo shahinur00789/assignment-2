@@ -471,6 +471,7 @@ margin: 58px;
     width: 100%;
 height: 272px;
 filter: brightness(70%);
+border-radius: 20px;
 }
 .trainer{
     position: relative;
@@ -681,4 +682,46 @@ height: 48px;
      hr{
         width: 350PX;
      }
-}
+     .banner-text h1{
+        font-size: 36px;
+     }
+     .button{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+
+        gap: 20px;
+        margin-top: 20px;
+        width: 100%;
+     }
+     span{
+        font-size: 36px;
+     }
+     .banner-section{
+        gap: 20px;
+     }
+     .habits-items{
+        margin-bottom: 30px;
+     }
+     .habits-item{
+        gap: 20px;
+     }
+     .run{
+        padding: 20px;
+        gap: 20px;
+     }
+     .bmi-calculation h3{
+        font-size: 32px;
+     }
+     .BMI-colum h2{
+        font-size: 16px;
+     }
+     .BMI-colum{
+        gap: 20px;
+     }
+     .reserved{
+        margin-bottom: 50px;
+     }
+     
+    }
