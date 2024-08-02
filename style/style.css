@@ -7,7 +7,7 @@ body{
     margin: 0;
 }
 .header{
-    width: 1435px;
+    width:100%;
 height: auto;
     background: linear-gradient(0.00deg, rgb(12, 11, 11),rgba(15, 14, 14, 0) 100%);
     background-color: rgb(32, 30, 30);
@@ -195,7 +195,7 @@ color: rgb(230, 83, 60);
 
 /* habit section add */
 .habit-des{
-    width: 91.25rem;
+    width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +208,7 @@ color: rgb(230, 83, 60);
     align-items: center;
     margin-top: 0px;
     background:black;
-    width: 91.25rem;
+    width: 100%;
     height: auto;
     padding-top: 141px;
 }
@@ -262,7 +262,7 @@ font-weight: 400;
 }
 /* run section start */
 .run-sec{
-    width: 91.25rem;
+    width:100%;
     height: auto;
     background-color: black;
     
@@ -316,7 +316,7 @@ border-radius: 20px;
 }
 /* BMI section start */
 .bmi-calculation{
-    width: 1460px;
+    width: 100%;
     height: 120px;
     background-color: black;
      display: flex;
@@ -342,7 +342,7 @@ font-weight: 400;
 }
 
 .BMI{
-    width: 1460px;
+    width: 100%;
     height: 487px;
     background: rgb(34, 34, 34);
 display: flex;
@@ -399,9 +399,7 @@ padding: 0px 20px;
 margin: 5px;
 
 }
-/* .extra-long{
-    width: 620px;
-} */
+
  .selector{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -430,7 +428,7 @@ margin-top: 10px;
 /* meet your team section start */
 
 .meet-your-team{
-    width: 1460px;
+    width: 100%;
 height: auto;
 background-color: black;
 
@@ -490,7 +488,7 @@ font-weight: 400;
 /* footer start */
 .foot{
 
-    width: 1460px;
+    width: 100%;
     height: 490px;
     background-color:rgb(44, 42, 42);
     padding-top: 40px;
