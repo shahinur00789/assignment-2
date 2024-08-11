@@ -421,7 +421,10 @@ font-weight: 600;
 margin-top: 10px;
 }
 .extra-long{
-    width: 577px;
+    width: 480px;
+}
+.long{
+    width: 220px;
 }
 /* BMI end */
 
@@ -637,17 +640,19 @@ margin-top: 30px;
         height: 100%;
         margin: 10px;
         
+        
     }
  .selector{
     grid-template-columns: repeat(2, 0.5fr);
  }
  .extra-long{
-    width: 353px;
+    width: 510px;
 height: 48px;
  }
     
     .meet-your-team{
         width: 100%;
+        padding-top: 40px;
         
     }
     .row-1{
@@ -670,7 +675,10 @@ height: 48px;
 
     }
     .footer-des{
-        font-size: 60%;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
 
     }
      .last{
